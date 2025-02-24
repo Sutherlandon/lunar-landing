@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunar Landing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-mode">
+  <div id="app-bar">
+    <h1>Lunar Landing</h1>
+    <button id="mode-toggle">☀</button>
+  </div>
+  <div id="game-container">
+    <div id="win-message"></div>
+    <div id="grid"></div>
+    <div id="controls">
+      <div id="challenge-group">
+        <button id="prev-challenge">←</button>
+        <span id="challenge-number">1/5</span>
+        <button id="next-challenge">→</button>
+      </div>
+      <div id="action-buttons">
+        <button id="reset" title="Reset Game">↺</button>
+        <button id="undo" title="Undo Move">↶</button>
+      </div>
+    </div>
+    <div id="instructions-toggle">
+      <a href="#" id="show-instructions">Show Instructions</a>
+      <div id="instructions" style="display: none;">
+        <p>Click an explorer to select it, then click a square to move it toward another explorer in the same row or
+          column.</p>
+        <p>Get the Red Shuttle to the center to win!</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -4,8 +4,8 @@ const CHALLENGES = [
   [{ type: 'red-shuttle', row: 4, col: 2 }, { type: 'orange-bot', row: 1, col: 2 }],
   [{ type: 'red-shuttle', row: 4, col: 3 }, { type: 'orange-bot', row: 2, col: 1 }, { type: 'yellow-bot', row: 1, col: 3 }],
   [{ type: 'red-shuttle', row: 4, col: 2 }, { type: 'orange-bot', row: 0, col: 2 }, { type: 'yellow-bot', row: 2, col: 4 }, { type: 'green-bot', row: 2, col: 1 }],
-  [{ type: 'red-shuttle', row: 4, col: 0 }, { type: 'orange-bot', row: 0, col: 2 }, { type: 'yellow-bot', row: 1, col: 4 }, { type: 'green-bot', row: 3, col: 1 }, { type: 'blue-bot', row: 4, col: 3 }],
   [{ type: 'red-shuttle', row: 4, col: 4 }, { type: 'yellow-bot', row: 1, col: 0 }, { type: 'green-bot', row: 1, col: 4 }, { type: 'blue-bot', row: 3, col: 1 }]
+  [{ type: 'red-shuttle', row: 4, col: 0 }, { type: 'orange-bot', row: 0, col: 2 }, { type: 'yellow-bot', row: 1, col: 4 }, { type: 'green-bot', row: 3, col: 1 }, { type: 'blue-bot', row: 4, col: 3 }],
 ];
 let currentChallenge = 0;
 let explorers = JSON.parse(JSON.stringify(CHALLENGES[currentChallenge]));
